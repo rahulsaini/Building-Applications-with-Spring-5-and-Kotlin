@@ -8,7 +8,7 @@ import reactor.bus.Event
 class NotesCountNotificationConsumer : NotificationConsumer<NotesCountNotification> {
 
     @Autowired
-    private lateinit var service: NotesCountNotificationServiceImpl
+    lateinit var service: NotesCountNotificationService
 
     override fun accept(e: Event<NotesCountNotification>?) {
         val data = e?.data
