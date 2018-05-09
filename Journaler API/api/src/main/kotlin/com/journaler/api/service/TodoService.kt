@@ -11,7 +11,7 @@ import reactor.bus.EventBus
 import java.util.*
 
 
-@Service("Todo service")
+@Service
 class TodoService {
 
     @Autowired

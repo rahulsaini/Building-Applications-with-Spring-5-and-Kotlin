@@ -10,7 +10,7 @@ import reactor.bus.Event
 import reactor.bus.EventBus
 import java.util.*
 
-@Service("Note service")
+@Service
 class NoteService {
 
     @Autowired
