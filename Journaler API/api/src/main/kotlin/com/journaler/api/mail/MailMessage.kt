@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull
 data class MailMessage(
         @Email
         @NotNull
-        var to: String,
-        var subject: String,
-        var text: String
+        val to: String,
+        val subject: String,
+        val text: String
 )
