@@ -1,3 +1,3 @@
 package com.journaler.api.reactor
 
-data class NotesCountNotification(var notesCount: Int)
+data class NotesCountNotification(val notesCount: Int)

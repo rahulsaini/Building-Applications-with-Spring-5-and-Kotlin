@@ -1,3 +1,3 @@
 package com.journaler.api.reactor
 
-data class TodosCountNotification(var todosCount: Int)
+data class TodosCountNotification(val todosCount: Int)
